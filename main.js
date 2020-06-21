@@ -1,8 +1,8 @@
-var nucleo      = require('core.js');
-var harvest     = require('role.harvester.js');
-var builder     = require('role.builder.js');
-var upgrader    = require('role.upgrader.js');
-var prototipos  = require('creeps.prototypes.js')( Creep , nucleo );
+var nucleo      = require('core');
+var harvest     = require('role.harvester');
+var builder     = require('role.builder');
+var upgrader    = require('role.upgrader');
+var prototipos  = require('creeps.prototypes')( Creep , nucleo );
 
 module.exports.loop = function(){
     
